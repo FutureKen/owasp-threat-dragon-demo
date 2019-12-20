@@ -158,8 +158,8 @@
                 "height": 80
               },
               "position": {
-                "x": 410,
-                "y": 30
+                "x": 505,
+                "y": 25
               },
               "angle": 0,
               "id": "ec574fb4-87e7-494b-88dc-2a3c99172067",
@@ -217,8 +217,8 @@
                 "height": 100
               },
               "position": {
-                "x": 560,
-                "y": 180
+                "x": 564,
+                "y": 221
               },
               "angle": 0,
               "id": "3e75b596-9c70-41b6-a2cf-a15899c254d3",
@@ -449,7 +449,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "Put Message",
+                      "text": "S3 Storage",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -489,8 +489,8 @@
               },
               "vertices": [
                 {
-                  "x": 466,
-                  "y": 138
+                  "x": 597,
+                  "y": 162
                 }
               ],
               "id": "4bbf279c-49c7-436d-9afa-e94435e6ec72",
@@ -791,6 +791,16 @@
               "hasOpenThreats": false,
               "isEncrypted": true,
               "isPublicNetwork": false,
+              "threats": [
+                {
+                  "status": "Mitigated",
+                  "severity": "High",
+                  "type": "Tampering",
+                  "title": "An adversary can gain access to sensitive data by performing SQL injection through Web App",
+                  "description": "SQL injection is an attack in which malicious code is inserted into strings that are later passed to an instance of SQL Server for parsing and execution. The primary form of SQL injection consists of direct insertion of code into user-input variables that are concatenated with SQL commands and executed. A less direct attack injects malicious code into strings that are destined for storage in a table or as metadata. When the stored strings are subsequently concatenated into a dynamic SQL command, the malicious code is executed.",
+                  "mitigation": "Validate and escaping all user-supplied input."
+                }
+              ],
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasNoOpenThreats isInScope"
@@ -811,8 +821,8 @@
               },
               "vertices": [
                 {
-                  "x": 377,
-                  "y": 280
+                  "x": 369,
+                  "y": 310
                 }
               ],
               "id": "d117ddba-2508-45ce-b9ea-fb9df56a79e5",
