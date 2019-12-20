@@ -286,7 +286,7 @@
                   "class": "element-shape hasNoOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Web\nApplication"
+                  "text": "EC2 - Web\nApplication"
                 },
                 "#element-process": {
                   "class": "outOfScopeElement"
