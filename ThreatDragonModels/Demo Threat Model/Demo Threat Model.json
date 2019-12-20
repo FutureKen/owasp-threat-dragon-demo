@@ -100,7 +100,7 @@
                   "class": "element-shape hasOpenThreats isInScope"
                 },
                 "text": {
-                  "text": "Database"
+                  "text": "RDS Database"
                 },
                 "#element-shape": {
                   "class": ""
