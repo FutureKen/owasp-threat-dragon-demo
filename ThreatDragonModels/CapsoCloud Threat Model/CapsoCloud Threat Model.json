@@ -13,7 +13,7 @@
     ],
     "diagrams": [
       {
-        "title": "New",
+        "title": "Capso Cloud Diagram",
         "thumbnail": "./public/content/images/thumbnail.jpg",
         "id": 0,
         "diagramJson": {
@@ -158,8 +158,8 @@
                 "height": 80
               },
               "position": {
-                "x": 505,
-                "y": 25
+                "x": 510,
+                "y": 30
               },
               "angle": 0,
               "id": "ec574fb4-87e7-494b-88dc-2a3c99172067",
@@ -217,8 +217,8 @@
                 "height": 100
               },
               "position": {
-                "x": 564,
-                "y": 221
+                "x": 560,
+                "y": 220
               },
               "angle": 0,
               "id": "3e75b596-9c70-41b6-a2cf-a15899c254d3",
@@ -355,27 +355,6 @@
               "attrs": {}
             },
             {
-              "type": "tm.Boundary",
-              "smooth": true,
-              "source": {
-                "x": 350,
-                "y": 10
-              },
-              "target": {
-                "x": 430,
-                "y": 180
-              },
-              "vertices": [
-                {
-                  "x": 333,
-                  "y": 117
-                }
-              ],
-              "id": "70a1b898-4131-462f-a26e-1adf9f2b2eda",
-              "z": 9,
-              "attrs": {}
-            },
-            {
               "type": "tm.Flow",
               "smooth": true,
               "source": {
@@ -441,6 +420,10 @@
                 {
                   "x": 351,
                   "y": 120
+                },
+                {
+                  "x": 450,
+                  "y": 90
                 }
               ],
               "id": "86347588-6629-45e3-a441-09ca11bce894",
@@ -449,7 +432,7 @@
                   "position": 0.5,
                   "attrs": {
                     "text": {
-                      "text": "S3 Storage",
+                      "text": "File Upload",
                       "font-weight": "400",
                       "font-size": "small"
                     }
@@ -469,6 +452,7 @@
               ],
               "outOfScope": false,
               "hasOpenThreats": true,
+              "isEncrypted": true,
               "attrs": {
                 ".marker-target": {
                   "class": "marker-target hasOpenThreats isInScope"
